@@ -1,8 +1,6 @@
 export default Vue.component('Foo', {
-  template: '<div>Next module</div>',
-  data() {
-    return {
-      blah: ''
-    }
+  template: '<div>Next component</div>',
+  mounted() {
+    console.log("Foo mounted")
   },
 })

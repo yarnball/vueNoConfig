@@ -10,7 +10,7 @@ export default Vue.component('App', {
   },
   data() {
     return {
-      initialState:'Wowoooo'
+      initialState:'Hello World'
     }
   },
 })
